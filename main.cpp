@@ -4,10 +4,10 @@ using namespace std;
 class power_window
 {
 public:
-    int engine_status;
+    //int engine_status;
     char door_status;
     char window_status;
-    char choice;
+    //char choice;
     void window_up(int count);
     void window_down(int count);
     void express_updown(int count);
@@ -122,7 +122,7 @@ int main()
         {
            cout<<"Engine is ON"<<endl;
         }
-           cout<<"Enter Door Status(Press 'O'/'o' to Open)(Press 'C'/'็' to Close)"<<endl;
+           cout<<"Enter Door Status(Press 'O'/'o' to Open)(Press 'C'/'รง' to Close)"<<endl;
         cin>>powind.door_status;
         if(powind.door_status=='O' || powind.door_status=='o')
              cout<<"Door is Open"<<endl;
